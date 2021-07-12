@@ -6,3 +6,10 @@
   reviewers:
     - wdssmq
     - 拓源
+- id: yyznApi
+  type: plugin
+  url: https://bbs.zblogcn.com/thread-104444.html
+  date:
+    - 2021-07-12
+  reviewers:
+    - wdssmq
