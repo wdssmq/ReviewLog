@@ -1,5 +1,6 @@
 - id: zbp_long
   type: theme
+  status: pass
   url: https://bbs.zblogcn.com/thread-104417.html
   date:
     - 2021-07-08
@@ -8,6 +9,7 @@
     - 拓源
 - id: yyznApi
   type: plugin
+  status: wait
   url: https://bbs.zblogcn.com/thread-104444.html
   date:
     - 2021-07-12
@@ -15,6 +17,7 @@
     - 沉冰浮水
 - id: jzac_sitemap
   type: plugin
+  status: wait
   url: https://bbs.zblogcn.com/thread-104454.html
   date:
     - 2021-07-18
