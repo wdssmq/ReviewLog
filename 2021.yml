@@ -24,3 +24,11 @@
   reviewers:
     - 沉冰浮水
     - 隔壁老李
+- id: Apply
+  type: plugin
+  status: block
+  url: https://bbs.zblogcn.com/thread-104464.html
+  date:
+    - 2021-07-21
+  reviewers:
+    - 隔壁老李
