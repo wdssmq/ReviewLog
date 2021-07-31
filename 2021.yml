@@ -24,6 +24,7 @@
   reviewers:
     - 沉冰浮水
     - 隔壁老李
+    - 一条大河
 - id: Apply
   type: plugin
   status: block
@@ -32,3 +33,13 @@
     - 2021-07-21
   reviewers:
     - 隔壁老李
+- id: Wonderful
+  type: theme
+  status: wait
+  url: https://bbs.zblogcn.com/thread-104492.html
+  date:
+    - 2021-07-31
+  reviewers:
+    - 隔壁老李
+    - 拓源
+    - 沉冰浮水
