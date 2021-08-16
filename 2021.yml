@@ -1,6 +1,6 @@
 - id: zbp_long
   type: theme
-  status: pass
+  status: accept
   url: https://bbs.zblogcn.com/thread-104417.html
   date:
     - 2021-07-08
@@ -42,4 +42,12 @@
   reviewers:
     - 隔壁老李
     - 拓源
+    - 沉冰浮水
+- id: qz_wptozblog
+  type: plugin
+  status: accept
+  url: https://bbs.zblogcn.com/thread-104527.html
+  date:
+    - 2021-08-16
+  reviewers:
     - 沉冰浮水
