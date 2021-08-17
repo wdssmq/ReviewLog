@@ -51,3 +51,12 @@
     - 2021-08-16
   reviewers:
     - 沉冰浮水
+- id: MengdeFilePro
+  type: plugin
+  status: accept
+  url: https://bbs.zblogcn.com/thread-104531.html
+  date:
+    - 2021-08-16
+  reviewers:
+    - 一条大河
+    - 沉冰浮水
