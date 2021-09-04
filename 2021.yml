@@ -9,7 +9,7 @@
     - 拓源
 - id: yyznApi
   type: plugin
-  status: wait
+  status: ing
   url: https://bbs.zblogcn.com/thread-104444.html
   date:
     - 2021-07-12
@@ -17,7 +17,7 @@
     - 沉冰浮水
 - id: jzac_sitemap
   type: plugin
-  status: wait
+  status: ing
   url: https://bbs.zblogcn.com/thread-104454.html
   date:
     - 2021-07-18
@@ -35,7 +35,7 @@
     - 隔壁老李
 - id: Wonderful
   type: theme
-  status: wait
+  status: accept
   url: https://bbs.zblogcn.com/thread-104492.html
   date:
     - 2021-07-31
@@ -59,4 +59,12 @@
     - 2021-08-16
   reviewers:
     - 一条大河
+    - 沉冰浮水
+- id: adwbk
+  type: theme
+  status: ing
+  url: https://bbs.zblogcn.com/thread-104546.html
+  date:
+    - 2021-09-04
+  reviewers:
     - 沉冰浮水
