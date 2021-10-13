@@ -76,3 +76,11 @@
     - 2021-09-30
   reviewers:
     - 沉冰浮水
+- id: GSListener
+  type: plugin
+  status: ing
+  url: https://bbs.zblogcn.com/thread-104628.html
+  date:
+    - 2021-10-13
+  reviewers:
+    - 沉冰浮水
