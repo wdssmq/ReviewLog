@@ -17,7 +17,7 @@
     - 沉冰浮水
 - id: jzac_sitemap
   type: plugin
-  status: ing
+  status: block
   url: https://bbs.zblogcn.com/thread-104454.html
   date:
     - 2021-07-18
