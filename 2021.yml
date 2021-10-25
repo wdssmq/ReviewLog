@@ -84,3 +84,19 @@
     - 2021-10-13
   reviewers:
     - 沉冰浮水
+- id: shaonian
+  type: theme
+  status: ing
+  url: https://bbs.zblogcn.com/thread-104662.html
+  date:
+    - 2021-10-21
+  reviewers:
+    - 沉冰浮水
+- id: ContentCodeTm
+  type: plugin
+  status: ing
+  url: https://bbs.zblogcn.com/thread-104666.html
+  date:
+    - 2021-10-21
+  reviewers:
+    - 沉冰浮水
