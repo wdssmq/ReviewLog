@@ -84,3 +84,12 @@
     - 2021-10-13
   reviewers:
     - 沉冰浮水
+- id: YrActivityLink
+  type: plugin
+  status: ing
+  url: https://bbs.zblogcn.com/thread-104680.html
+  date:
+    - 2021-11-04
+  reviewers:
+    - 沉冰浮水
+    - 漠漠睡
