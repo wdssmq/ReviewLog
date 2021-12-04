@@ -84,15 +84,7 @@
     - 2021-10-13
   reviewers:
     - 沉冰浮水
-- id: shaonian
-  type: theme
-  status: ing
-  url: https://bbs.zblogcn.com/thread-104662.html
-  date:
-    - 2021-10-21
-  reviewers:
-    - 沉冰浮水
-- id: ContentCodeTm
+- id: VBilibili_TM
   type: plugin
   status: ing
   url: https://bbs.zblogcn.com/thread-104666.html
@@ -100,3 +92,12 @@
     - 2021-10-21
   reviewers:
     - 沉冰浮水
+- id: YrActivityLink
+  type: plugin
+  status: ing
+  url: https://bbs.zblogcn.com/thread-104680.html
+  date:
+    - 2021-11-04
+  reviewers:
+    - 沉冰浮水
+    - 漠漠睡
