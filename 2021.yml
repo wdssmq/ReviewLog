@@ -101,3 +101,27 @@
   reviewers:
     - 沉冰浮水
     - 漠漠睡
+- id: ChangeCss
+  type: plugin
+  status: 进行中
+  url: https://bbs.zblogcn.com/thread-104741.html
+  date:
+    - 2021-12-04
+  reviewers:
+    - 沉冰浮水
+- id: xiurr_code
+  type: plugin
+  status: 进行中
+  url: https://bbs.zblogcn.com/thread-104769.html
+  date:
+    - 2021-12-04
+  reviewers:
+    - 沉冰浮水
+- id: rujuezbp
+  type: theme
+  status: 进行中
+  url: https://bbs.zblogcn.com/thread-104781.html
+  date:
+    - 2021-12-04
+  reviewers:
+    - 沉冰浮水
