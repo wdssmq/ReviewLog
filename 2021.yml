@@ -1,6 +1,6 @@
 - id: zbp_long
   type: theme
-  status: accept
+  status: 通过
   url: https://bbs.zblogcn.com/thread-104417.html
   date:
     - 2021-07-08
@@ -9,7 +9,7 @@
     - 拓源
 - id: yyznApi
   type: plugin
-  status: ing
+  status: 进行中
   url: https://bbs.zblogcn.com/thread-104444.html
   date:
     - 2021-07-12
@@ -17,7 +17,7 @@
     - 沉冰浮水
 - id: jzac_sitemap
   type: plugin
-  status: block
+  status: 拒绝
   url: https://bbs.zblogcn.com/thread-104454.html
   date:
     - 2021-07-18
@@ -27,7 +27,7 @@
     - 一条大河
 - id: Apply
   type: plugin
-  status: block
+  status: 拒绝
   url: https://bbs.zblogcn.com/thread-104464.html
   date:
     - 2021-07-21
@@ -35,7 +35,7 @@
     - 隔壁老李
 - id: Wonderful
   type: theme
-  status: accept
+  status: 通过
   url: https://bbs.zblogcn.com/thread-104492.html
   date:
     - 2021-07-31
@@ -45,7 +45,7 @@
     - 沉冰浮水
 - id: qz_wptozblog
   type: plugin
-  status: accept
+  status: 通过
   url: https://bbs.zblogcn.com/thread-104527.html
   date:
     - 2021-08-16
@@ -53,7 +53,7 @@
     - 沉冰浮水
 - id: MengdeFilePro
   type: plugin
-  status: accept
+  status: 通过
   url: https://bbs.zblogcn.com/thread-104531.html
   date:
     - 2021-08-16
@@ -62,7 +62,7 @@
     - 沉冰浮水
 - id: adwbk
   type: theme
-  status: ing
+  status: 进行中
   url: https://bbs.zblogcn.com/thread-104546.html
   date:
     - 2021-09-04
@@ -70,7 +70,7 @@
     - 沉冰浮水
 - id: SkycaijiZb
   type: plugin
-  status: accept
+  status: 通过
   url: https://bbs.zblogcn.com/thread-104611.html
   date:
     - 2021-09-30
@@ -78,7 +78,7 @@
     - 沉冰浮水
 - id: GSListener
   type: plugin
-  status: accept
+  status: 通过
   url: https://bbs.zblogcn.com/thread-104628.html
   date:
     - 2021-10-13
@@ -86,7 +86,7 @@
     - 沉冰浮水
 - id: VBilibili_TM
   type: plugin
-  status: ing
+  status: 进行中
   url: https://bbs.zblogcn.com/thread-104666.html
   date:
     - 2021-10-21
@@ -94,7 +94,7 @@
     - 沉冰浮水
 - id: YrActivityLink
   type: plugin
-  status: ing
+  status: 通过
   url: https://bbs.zblogcn.com/thread-104680.html
   date:
     - 2021-11-04
