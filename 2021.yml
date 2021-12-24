@@ -126,3 +126,13 @@
     - 2021-12-04
   reviewers:
     - 沉冰浮水
+- id: batch_push
+  type: plugin
+  status: 进行中
+  url: https://bbs.zblogcn.com/thread-104835.html
+  date:
+    - 2021-12-24
+  reviewers:
+    - 沉冰浮水
+    - 漠漠睡
+    - 隔壁老李
