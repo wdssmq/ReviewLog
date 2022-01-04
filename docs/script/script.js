@@ -187,7 +187,7 @@ function fnViewPerson(oData) {
   $("#person tr").after(strRlt);
 }
 
-fnGetYMLAjax("https://cdn.jsdelivr.net/gh/wdssmq/ReviewLog@main/2021.yml", "", function (resData) {
+fnGetYMLAjax("https://cdn.jsdelivr.net/gh/wdssmq/ReviewLog@main/data/2021H2.yml", "", function (resData) {
   // console.log(resData);
   const oData = fnParseYML(resData);
   fnViewAll(oData.oRltAll);
