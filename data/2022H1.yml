@@ -7,3 +7,11 @@
   reviewers:
     - 沉冰浮水
     - 尔今
+- id: urlpush
+  type: plugin
+  status: 通过
+  url: https://bbs.zblogcn.com/thread-104966.html
+  date:
+    - 2022-02-22
+  reviewers:
+    - 漠漠睡
