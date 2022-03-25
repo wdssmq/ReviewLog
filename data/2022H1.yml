@@ -15,3 +15,13 @@
     - 2022-02-22
   reviewers:
     - 漠漠睡
+- id: onekey_manage_plugin
+  type: plugin
+  status: 通过
+  url: https://bbs.zblogcn.com/thread-105017.html
+  date:
+    - 2022-03-25
+  reviewers:
+    - 沉冰浮水
+    - 漠漠睡
+    - 唐朝
