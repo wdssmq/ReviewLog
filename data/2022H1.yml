@@ -34,3 +34,11 @@
   reviewers:
     - 漠漠睡
     - 沉冰浮水
+- id: WebmasterStatistical
+  type: plugin
+  status: 拒绝
+  url: https://bbs.zblogcn.com/thread-105169.html
+  date:
+    - 2022-04-21
+  reviewers:
+    - null
