@@ -42,3 +42,12 @@
     - 2022-04-21
   reviewers:
     - null
+- id: ViewHelper
+  type: plugin
+  status: 通过
+  rating: C
+  url: https://bbs.zblogcn.com/thread-105159.html
+  date:
+  - 2022-04-25
+  reviewers:
+  - 沉冰浮水
