@@ -71,3 +71,13 @@
   reviewers:
     - 漠漠睡
     - 隔壁老李
+- id: Batchimportcate
+  type: plugin
+  status: 进行中
+  rating:
+  url: https://bbs.zblogcn.com/thread-105125.html
+  date:
+    - 2022-05-10
+  reviewers:
+    - 漠漠睡
+    - 沉冰浮水
