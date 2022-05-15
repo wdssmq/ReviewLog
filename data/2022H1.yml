@@ -100,3 +100,13 @@
     - 2022-05-15
   reviewers:
     - 隔壁老李
+- id: ly_qq
+  type: plugin
+  status: 进行中
+  rating:
+  url: https://bbs.zblogcn.com/thread-105099.html
+  date:
+    - 2022-05-15
+  reviewers:
+    - 沉冰浮水
+    - 唐朝
