@@ -190,6 +190,7 @@ function fnViewPerson(oData) {
 }
 
 function fnMain(yml) {
+  $(".title-rlt").text(yml);
   const url = `https://cdn.jsdelivr.net/gh/wdssmq/ReviewLog@main/data/${yml}`;
   fnGetYMLAjax(url, "", function (resData) {
     // console.log(resData);
