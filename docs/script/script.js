@@ -136,7 +136,7 @@ function fnParseYML(strYML) {
 }
 
 function fnViewAll(oData) {
-  const tplTr = `<tr class="view-rlt>
+  const tplTr = `<tr class="view-rlt">
         <td>{date}</td>
         <td>{c}</td>
         <td>{a}</td>
