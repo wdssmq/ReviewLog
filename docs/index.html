@@ -1,53 +1,88 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Z-Blog 应用审议统计</title>
-    <link
-      href="https://cdn.bootcdn.net/ajax/libs/bulma/0.9.3/css/bulma.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style/style.css" />
-  </head>
-  <body>
-    <div id="main" class="container">
-      <div class="content">
-        <table id="person">
-          <tr>
-            <th>参与</th>
-            <th>通过</th>
-            <th>总数</th>
-          </tr>
-        </table>
-        <table id="all">
-          <tr>
-            <th>时间</th>
-            <th>通过</th>
-            <th>总数</th>
-          </tr>
-        </table>
-      </div>
-    </div>
-    <footer class="footer">
-      <div class="container">
-        <div class="content has-text-centered">
-          <p>
-            <a
-              href="https://github.com/wdssmq/ReviewLog"
-              target="_blank"
-              title="wdssmq/ReviewLog: Z-Blog 应用审议记录（试行）"
-              >wdssmq/ReviewLog</a
-            >
-          </p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Z-Blog 应用审议统计</title>
+  <link href="https://cdn.bootcdn.net/ajax/libs/bulma/0.9.3/css/bulma.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style/style.css" />
+  <script src="https://fastly.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+</head>
+
+<body>
+  <div id="main" class="container">
+    <!--  -->
+    <div class="content">
+      <h3 class="title">选择</h3>
+      <div x-data="getYMLFiles()" class="field has-addons is-text-center">
+        <div class="control">
+          <div class="select">
+            <select name="yml" id="yml" x-model="defYML">
+              <template x-for="item in items" :key="item">
+                <option :value="item" :selected="item==defYML" x-text="item"></option>
+              </template>
+            </select>
+          </div>
+        </div>
+        <div class="control">
+          <button class="button is-info" @click="getYML()">查看</button>
         </div>
       </div>
-    </footer>
+      <!--  -->
+      <script>
+        function getYMLFiles() {
+          return {
+            items: [
+              "2021H2.yml",
+              "2022H1.yml",
+            ],
+            defYML: "2022H1.yml",
+            getYML() {
+              // var yml = document.getElementById("yml").value;
+              const yml = this.defYML;
+              fnMain(yml);
+              // window.location.href = "./" + yml;
+            }
+          }
+        }
+      </script>
+      <!--  -->
+    </div>
+    <!--  -->
+    <div class="content">
+      <table id="person">
+        <tr>
+          <th>参与</th>
+          <th>通过</th>
+          <th>总数</th>
+        </tr>
+      </table>
+      <table id="all">
+        <tr>
+          <th>时间</th>
+          <th>通过</th>
+          <th>总数</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <a href="https://github.com/wdssmq/ReviewLog" target="_blank"
+            title="wdssmq/ReviewLog: Z-Blog 应用审议记录（试行）">wdssmq/ReviewLog</a>
+        </p>
+      </div>
+    </div>
+  </footer>
 
-    <!-- JS 库引入 -->
-    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/nodeca/js-yaml@master/dist/js-yaml.min.js"></script>
-    <script src="script/script.js"></script>
-  </body>
+  <!-- JS 库引入 -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://fastly.jsdelivr.net/gh/nodeca/js-yaml@master/dist/js-yaml.min.js"></script>
+  <script src="script/script.js"></script>
+</body>
+
 </html>

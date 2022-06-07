@@ -136,7 +136,7 @@ function fnParseYML(strYML) {
 }
 
 function fnViewAll(oData) {
-  const tplTr = `<tr>
+  const tplTr = `<tr class="view-rlt>
         <td>{date}</td>
         <td>{c}</td>
         <td>{a}</td>
@@ -158,11 +158,12 @@ function fnViewAll(oData) {
     a: arrCount.a,
     c: arrCount.c
   });
+  $("#all tr.view-rlt").remove();
   $("#all tr").after(strRlt);
 }
 
 function fnViewPerson(oData) {
-  const tplTr = `<tr>
+  const tplTr = `<tr class="view-rlt">
         <td>{person}</td>
         <td>{c}</td>
         <td>{a}</td>
@@ -184,13 +185,17 @@ function fnViewPerson(oData) {
     a: arrCount.a,
     c: arrCount.c
   });
+  $("#person tr.view-rlt").remove();
   $("#person tr").after(strRlt);
 }
 
-fnGetYMLAjax("https://cdn.jsdelivr.net/gh/wdssmq/ReviewLog@main/data/2021H2.yml", "", function (resData) {
-  // console.log(resData);
-  const oData = fnParseYML(resData);
-  fnViewAll(oData.oRltAll);
-  fnViewPerson(oData.oRltPerson);
-});
+function fnMain(yml) {
+  const url = `https://cdn.jsdelivr.net/gh/wdssmq/ReviewLog@main/data/${yml}`;
+  fnGetYMLAjax(url, "", function (resData) {
+    // console.log(resData);
+    const oData = fnParseYML(resData);
+    fnViewAll(oData.oRltAll);
+    fnViewPerson(oData.oRltPerson);
+  });
+}
 
