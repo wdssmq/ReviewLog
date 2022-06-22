@@ -199,4 +199,3 @@ function fnMain(yml) {
     fnViewPerson(oData.oRltPerson);
   });
 }
-
