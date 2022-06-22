@@ -113,7 +113,7 @@
     - 唐朝
 - id: LuBan_A3
   type: theme
-  status: 进行中
+  status: 通过
   rating:
   url: https://bbs.zblogcn.com/thread-105280.html
   date:
@@ -143,3 +143,12 @@
   reviewers:
     - 尔今
     - 沉冰浮水
+- id: DocPosterZb
+  type: plugin
+  status: 拒绝
+  rating:
+  url: https://bbs.zblogcn.com/thread-105300.html
+  date:
+    - 2022-06-22
+  reviewers:
+    - 漠漠睡
