@@ -19,10 +19,10 @@ Z-Blog 应用审议统计：
 - 不允许对系统表结构进行修改；
 - 引入样式或脚本放 `$header` 或 `$footer` 里；
 - `HasConfig` 和 `HasKey` 还是希望区分使用场景；
-- 在「公共头部」「公共尾部」模板内应各自放置`{$header}`或`{$footer}`标签；
-- 后台表单有`.tableBorder`类名后不需要再加`border='1'`属性，另外这个属性本身就是废弃的；
+- 在「公共头部」「公共尾部」模板内应各自放置 `{$header}` 或 `{$footer}` 标签；
+- 后台表单有 `.tableBorder` 类名后不需要再加 `border='1'` 属性，另外这个属性本身就是废弃的；
 - `img/`，`css/`，`script/`，明明可以很有规则感的(╯﹏╰）；
-- 以下 HTML 标签不需`type`属性：
+- 以下 HTML 标签不需 `type` 属性：
 
   ```html
   <link rel="stylesheet" href="style.css">
