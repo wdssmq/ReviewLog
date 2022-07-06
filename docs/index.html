@@ -29,61 +29,68 @@
         <div class="control">
           <button class="button is-info" @click="getYML()">查看</button>
         </div>
-      </div>
-      <!--  -->
-      <script>
-        function getYMLFiles() {
-          return {
-            items: [
-              "2021H2.yml",
-              "2022H1.yml",
-            ],
-            defYML: "2022H1.yml",
-            getYML() {
-              // var yml = document.getElementById("yml").value;
-              const yml = this.defYML;
-              fnMain(yml);
-              // window.location.href = "./" + yml;
+        <div class="control is-flex is-align-items-center">
+          <div class="switch-slide mr-l-5">
+            <input id="sw-cdn" x-model="bolCDN" type="checkbox" hidden>
+            <label for="sw-cdn" class="switch-slide-label"></label>
+          </div>
+          <span>启用 CDN</span>
+        </div>
+        <!--  -->
+        <script>
+          function getYMLFiles() {
+            return {
+              items: [
+                "2021H2.yml",
+                "2022H1.yml",
+              ],
+              defYML: "2022H1.yml",
+              bolCDN: false,
+              getYML() {
+                const yml = this.defYML;
+                const bolCDN = this.bolCDN;
+                fnMain(yml, bolCDN);
+                // window.location.href = "./" + yml;
+              }
             }
           }
-        }
-      </script>
+        </script>
+        <!--  -->
+      </div>
       <!--  -->
-    </div>
-    <!--  -->
-    <div class="content">
-      <h3 class="title title-rlt">结果</h3>
-      <table id="person">
-        <tr>
-          <th>参与</th>
-          <th>通过</th>
-          <th>总数</th>
-        </tr>
-      </table>
-      <table id="all">
-        <tr>
-          <th>时间</th>
-          <th>通过</th>
-          <th>总数</th>
-        </tr>
-      </table>
-    </div>
-  </div>
-  <footer class="footer">
-    <div class="container">
-      <div class="content has-text-centered">
-        <p>
-          <a href="https://github.com/wdssmq/ReviewLog" target="_blank"
-            title="wdssmq/ReviewLog: Z-Blog 应用审议记录（试行）">wdssmq/ReviewLog</a>
-        </p>
+      <div class="content">
+        <h3 class="title title-rlt">结果</h3>
+        <table id="person">
+          <tr>
+            <th>参与</th>
+            <th>通过</th>
+            <th>总数</th>
+          </tr>
+        </table>
+        <table id="all">
+          <tr>
+            <th>时间</th>
+            <th>通过</th>
+            <th>总数</th>
+          </tr>
+        </table>
       </div>
     </div>
-  </footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <a href="https://github.com/wdssmq/ReviewLog" target="_blank"
+              title="wdssmq/ReviewLog: Z-Blog 应用审议记录（试行）">wdssmq/ReviewLog</a>
+          </p>
+        </div>
+      </div>
+    </footer>
 
-  <!-- JS 库引入 -->
-  <script src="https://fastly.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
-  <script src="https://fastly.jsdelivr.net/gh/nodeca/js-yaml@master/dist/js-yaml.min.js"></script>
-  <script src="script/script.js"></script>
+    <!-- JS 库引入 -->
+    <script src="https://fastly.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
+    <script src="https://fastly.jsdelivr.net/gh/nodeca/js-yaml@master/dist/js-yaml.min.js"></script>
+    <script src="script/script.js"></script>
 </body>
 
 </html>

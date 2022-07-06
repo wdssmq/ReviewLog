@@ -189,10 +189,14 @@ function fnViewPerson(oData) {
   $("#person tr").after(strRlt);
 }
 
-function fnMain(yml) {
+function fnMain(yml, cdn = false) {
   $(".title-rlt").text(yml);
-  // const url = `https://cdn.jsdelivr.net/gh/wdssmq/ReviewLog@main/data/${yml}`;
-  const url = `https://raw.githubusercontent.com/wdssmq/ReviewLog/main/data/${yml}`;
+  let url;
+  if (cdn) {
+    url = `https://cdn.jsdelivr.net/gh/wdssmq/ReviewLog@main/data/${yml}`;
+  } else {
+    url = `https://raw.githubusercontent.com/wdssmq/ReviewLog/main/data/${yml}`;
+  }
   fnGetYMLAjax(url, "", function (resData) {
     // console.log(resData);
     const oData = fnParseYML(resData);
