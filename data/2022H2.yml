@@ -40,3 +40,33 @@
     - 漠漠睡
     - 唐朝
     - 隔壁老李
+- id: aha_Seo
+  type: plugin
+  status: 进行中
+  rating:
+  url: https://bbs.zblogcn.com/thread-105593.html
+  date:
+    - 2022-11-14
+  reviewers:
+    - 隔壁老李
+    - 漠漠睡
+- id: Accelerator
+  type: plugin
+  status: 进行中
+  rating:
+  url: https://bbs.zblogcn.com/thread-105653.html
+  date:
+    - 2022-11-14
+  reviewers:
+    - 唐朝
+    - 隔壁老李
+    - 漠漠睡
+- id: lh_fancybox
+  type: plugin
+  status: 进行中
+  rating:
+  url: https://bbs.zblogcn.com/thread-105654.html
+  date:
+    - 2022-11-14
+  reviewers:
+    - 漠漠睡
