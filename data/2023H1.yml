@@ -1,8 +1,9 @@
 - id: AddCustomCode
   type: plugin
-  status: 进行中
+  status: 通过
   rating: 
   url: https://bbs.zblogcn.com/thread-105983.html
+  git: https://git.mizuno2023.xyz/GesF-Lib/AddCustomCode
   date:
     - 2023-04-24
   reviewers:
