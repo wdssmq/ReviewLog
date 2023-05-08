@@ -1,10 +1,19 @@
 - id: AddCustomCode
   type: plugin
   status: 通过
-  rating: 
+  rating:
   url: https://bbs.zblogcn.com/thread-105983.html
   git: https://git.mizuno2023.xyz/GesF-Lib/AddCustomCode
   date:
     - 2023-04-24
   reviewers:
     - 沉冰浮水
+- id: WeAvatar
+  type: plugin
+  status: 通过
+  rating:
+  url: https://bbs.zblogcn.com/thread-106013.html
+  git:
+  date:
+    - 2023-05-08
+  reviewers:
