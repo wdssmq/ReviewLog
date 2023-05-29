@@ -17,3 +17,13 @@
   date:
     - 2023-05-08
   reviewers:
+- id: erics_light
+  type: theme
+  status: 进行中
+  rating:
+  url: https://bbs.zblogcn.com/thread-106000.html
+  git:
+  date:
+    - 2023-05-29
+  reviewers:
+    - 沉冰浮水
