@@ -113,6 +113,9 @@ function fnParseYML(strYML) {
   const oRltPerson = { n: [], data: { a: [], c: [] } };
   oData.forEach(el => {
     const arrPeople = el.reviewers;
+    if (!arrPeople) {
+      return;
+    }
     arrPeople.forEach(name => {
       let nIndex = fnGetIndexInArray(oRltPerson.n, name);
       if (nIndex < 0) {

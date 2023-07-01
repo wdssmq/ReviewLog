@@ -39,13 +39,38 @@
         <!--  -->
         <script>
           function getYMLFiles() {
+            const ymlList = ((begHY = [2021, 2]) => {
+              const rltList = [];
+              // 当前年份
+              const year = new Date().getFullYear();
+              // 当前月份
+              const month = new Date().getMonth() + 1;
+              // 前一个半年
+              const lstHY = month >= 7 ? [year, 1] : [year - 1, 2];
+              // 拼接 yml 文件名
+              const _ymlName = (year, halfYear) => {
+                const y = year.toString();
+                const h = halfYear.toString();
+                return y + "H" + h + ".yml";
+              }
+              // 循环
+              let m = begHY[1];
+              for (let i = begHY[0]; i <= lstHY[0]; i++) {
+                for (let j = m; j <= 2; j++) {
+                  if (i == lstHY[0] && j > lstHY[1]) break;
+                  const ymlName = _ymlName(i, j);
+                  rltList.push(ymlName);
+                }
+                m = 1;
+              }
+              return rltList;
+            })([2021, 2]);
+            const ymlListLen = ymlList.length;
+            console.log(ymlList);
+            // 生成返回值
             return {
-              items: [
-                "2021H2.yml",
-                "2022H1.yml",
-                "2022H2.yml",
-              ],
-              defYML: "2022H2.yml",
+              items: ymlList,
+              defYML: ymlList[ymlListLen - 1],
               bolCDN: false,
               getYML() {
                 const yml = this.defYML;
