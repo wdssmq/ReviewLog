@@ -1,0 +1,12 @@
+- id: MQ_txt
+  type: plugin
+  status: 通过
+  rating:
+  url: https://bbs.zblogcn.com/thread-106140.html
+  git: https://github.com/mq-za05/MQ_txt
+  date:
+    - 2023-07-06
+  reviewers:
+    - 唐朝
+    - zhouzishu
+    - 漠漠睡
